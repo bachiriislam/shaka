@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onco</title>
+    <link rel="stylesheet" href="onco.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <div class="sidebar">
+                <button id="menu-button">
+                    <img src="./images/menu-burger.svg" alt="">
+                </button>
+            </div>
+            <div class="logo">
+                <img src="./images/shaka.png" alt="shaka">
+            </div>
+            <form class="search-form">
+                <div class="search-bar">
+                    <input  class="search-input" type="search" placeholder="Search for courses">
+                       <div class="search-icon">
+                           <button>
+                              <img src="./images/search-icon.svg" alt="">
+                          </button>
+                       </div>
+                 </div>
+              </form>
+                
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="#discover-careers">Discover careers</a></li>
+                <li><a href="">Our certificate</a></li>
+                <li><a href="#why-choose-us">Why choose us</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="sign-log">
+                <div class="log-in">
+                    <a href="login.html"><button>Log in</button></a>
+               </div>
+                <div class="sign-up">
+                    <a href="signup.html"><button>Sign up</button></a>
+                </div>
+            </div>
+            <button class="search-button" aria-label="Search">
+                <img src="./images/search-icon.svg" alt="">
+            </button>
+        </nav>
+    </header>
+    <section class="sidebar-container">
+        <section class="profile">
+          <div class="profile-img">
+              <img src="./images/profile-photo.svg" alt="">
+          </div>
+          <div class="profile-name">
+              <h2>Islam Bachiri</h2>
+              <h3>i.bachiri@univ-boumerdes.dz</h3>
+  
+          </div>
+  
+  
+        </section>
+        <section class="out-profile">
+            <div class="sign-log-profile">
+                <div class="log-in">
+                    <a href="login.html"><button>Log in</button></a>
+               </div>
+                <div class="sign-up">
+                    <a href="signup.html"><button>Sign up</button></a>
+                </div>
+            </div>
+        </section>
+  
+        <section class="options">
+          <div class="first-option">
+             <div class="option-inner option1">
+              <div class="options-card">
+                  <img src="./images/explore-courses.svg" alt="">
+                <a href="#categories"><h3>Explore courses</h3></a>
+              </div>
+              <img src="./images/to-right.svg" alt=">">
+             </div>
+             <div class="option-inner option2">
+                  <div class="options-card">
+                   <img src="./images/plan-your-career.svg" alt="">
+                   <a href="#discover-careers"><h3>Plan your career</h3></a>
+                  </div>
+                  <img src="./images/to-right.svg" alt=">">
+             </div>
+             <div class="option-inner option3">
+                  <div class="options-card">
+                      <img src="./images/earn-certificates.svg" alt="">
+                      <h3>Earn certificates</h3>
+                  </div>
+                  <img src="./images/to-right.svg" alt=">">
+             </div>
+          </div>
+          <div class="second-options">
+              <div class="option-inner option4">
+                 <div class="options-card"> 
+                    <img src="./images/contact-us.svg" alt="">
+                    <h3>Contact us</h3>
+                 </div>
+                 <img src="./images/to-right.svg" alt=">">
+              </div>
+              <div class="option-inner option5">
+                  <div class="options-card"> 
+                      <img src="./images/why-choose-us.svg" alt="?">
+                      <a href="#why-choose-us"><h3>Why choose us</h3></a>
+                  </div>
+                  <img src="./images/to-right.svg" alt=">">
+              </div>
+              
+  
+          </div>
+          <div class="third-options">
+              <div class="option-inner language">
+                  <div class="options-card"> 
+                      <img src="./images/language.svg" alt="">
+                      <h3>language</h3>
+                  </div>
+                  <img src="./images/to-right.svg" alt=">">
+              </div>
+              <div class="option-inner option7">
+              <div class="options-card"> 
+                  <img src="./images/faq.svg" alt="">
+                  <h3>FAQ’S</h3>
+               </div>
+               <img src="./images/to-right.svg" alt=">">
+               </div>
+              <div class="option-inner option8">
+               <div class="options-card"> 
+                  <img src="./images/log-out.svg" alt="">
+                  <h3>Log out</h3>
+               </div>
+               <img src="./images/to-right.svg" alt=">">
+               </div>
+  
+  
+  
+  
+  
+  
+        </section>
+      </section>
+
+
+    <main class="main">
+       <section class="hero">
+            <div class="hero-text">
+                <div class="hero-text-inner">
+                    <h1>Welcome in IS Academie</h1>
+                    <h3>Where Edecation never stop advancing</h3>
+                    <p>Unlock your potential with our expertly designed online courses. Whether you're looking to advance your career, learn a new skill, or explore a passion, we offer high-quality, accessible learning for everyone. Join a community of learners and start your journey today!</p>
+                </div>
+                <div class="Explore-courses">
+                    <button class="Exp-btn">Explore courses</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./images/Learn-at-your-pace.jpg" alt="hero-image">
+
+
+        </section>
+
+        <section class="discover-careers" id="discover-careers">
+            
+         <div class="discover-careers-inner">
+            <h2>Not sure where to begin ?</h2>
+            <p>No worries! Take our quick quiz or explore our curated learning paths to find the course that’s right for you. Let us help you take the first step toward achieving your goals.</p>
+         </div>
+            <div class="options-container">
+                <div class="option-card quiz">
+                    <img src="./images/Online quiz.svg" alt="">
+                    <div class="option-card-inner">
+                     <h3>Take our quick quiz<button>
+                        <img src="./images/toright.svg" alt="click">
+                     </button></h3>
+                     <p>Answer a few simple questions, and we'll recommend courses tailored to your interests and goals</p>
+                    </div>
+                </div>
+                
+                <div class="option-card planner">
+                    <img src="./images/our planner.svg" alt="">
+                    <div class="option-card-inner">
+                        <h3>Use our planner<button>
+                            <img src="./images/toright.svg" alt="click">
+                        </button></h3>
+                        <p>Get a personalized roadmap to your dream career. Input your aspirations, and we’ll suggest the skills, courses, and milestones to get you there.</p>
+                       </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <section class="categories" id ="categories">
+            <div class="category-nav">
+                <div class="indicator"></div>
+                <ul class="main-categories">
+                    <li><a href="" data-category="it-software">IT & Software</a></li>
+                    <li><a href="" data-category="business">Business</a></li>
+                    <li><a href="" data-category="art-design">Art & Design</a></li>
+                    <li><a href="" data-category="health-fitness">Health & Fitness</a></li>
+                    <li><a href="" data-category="self-development">Self Development</a></li>
+                </ul>
+            </div>
+
+            <div class="sub-categories">
+                <button class="scroll-button left-button" aria-label="Scroll left">←</button>
+                <ul class="sub-category-list it-software">
+                    <li><a href="">Python</a></li>
+                    <li><a href="">Web Development</a></li>
+                    <li><a href="">AI</a></li>
+                    <li><a href="">Cyber Security</a></li>
+                    <li><a href="">Flutter</a></li>
+                    <li><a href="">Data Science</a></li>
+                    <li><a href="">Linux</a></li>
+                    <li><a href="">Hardware</a></li>
+                    <li><a href="">Machine Learning</a></li>
+                    <li><a href="">Arduino</a></li>
+                    <li><a href="">Robotics</a></li>
+
+                </ul>
+                <ul class="sub-category-list business">
+                    <li><a href="" class="sub-btn">Marketing</a></li>
+                    <li><a href="" class="sub-btn">Entrepreneurship</a></li>
+                    <li><a href="" class="sub-btn">Finance</a></li>
+                    <li><a href="" class="sub-btn">Leadership</a></li>
+                    <li><a href="" class="sub-btn">Management</a></li>
+                    <li><a href="" class="sub-btn">E-Commerce</a></li>
+                    <li><a href="" class="sub-btn">Sales</a></li>
+                    <li><a href="" class="sub-btn">Business Strategy</a></li>
+                  </ul>
+                
+                
+                  <ul class="sub-category-list health-fitness">
+                    <li><a href="" class="sub-btn">Nutrition</a></li>
+                    <li><a href="" class="sub-btn">Yoga</a></li>
+                    <li><a href="" class="sub-btn">Mental Health</a></li>
+                    <li><a href="" class="sub-btn">Workout</a></li>
+                    <li><a href="" class="sub-btn">Personal Training</a></li>
+                    <li><a href="" class="sub-btn">Meditation</a></li>
+                  </ul>
+                
+           
+                  <ul class="sub-category-list art-design">
+                    <li><a href="" class="sub-btn">Graphic Design</a></li>
+                    <li><a href="" class="sub-btn">Drawing</a></li>
+                    <li><a href="" class="sub-btn">Photography</a></li>
+                    <li><a href="" class="sub-btn">UX/UI</a></li>
+                    <li><a href="" class="sub-btn">Animation</a></li>
+                    <li><a href="" class="sub-btn">3D Modeling</a></li>
+                  </ul>
+                
+                  <ul class="sub-category-list self-development">
+                    <li><a href="" class="sub-btn">Productivity</a></li>
+                    <li><a href="" class="sub-btn">Public Speaking</a></li>
+                    <li><a href="" class="sub-btn">Time Management</a></li>
+                    <li><a href="" class="sub-btn">Mindfulness</a></li>
+                    <li><a href="" class="sub-btn">Career Development</a></li>
+                    <li><a href="" class="sub-btn">Confidence Building</a></li>
+                  </ul>
+                <button class="scroll-button right-button" aria-label="Scroll rigth">→</button>
+            </div>
+            </div>
+
+            <div class="courses-container">
+                <button class="scroll-button left-button courses-button leftb" aria-label="Scroll left">←</button>
+            <div class="courses">
+
+                <article class="course-card">
+                    <img src="./images/python1.jpg" alt="Python Course">
+                    <div class="course-info">
+                        <h3>The Complete Python Bootcamp: From Zero to Master</h3>
+                        <p class="instructor">Lucie G.</p>
+                        <div class="course-stats">
+                            <span>12 Hours</span>
+                            <span>•</span>
+                            <span>1,234 Learners</span>
+                        </div>
+                        <div class="rating">
+                            <div class="stars">★★★★★</div>
+                            <span>4.6 (4,823)</span>
+                        </div>
+                        <div class="price-action">
+                            <p class="price">$29.99</p>
+                        </div>
+                        <div class="course-buttons">
+                            <button class="more-info">More Info</button>
+                            <button class="start-learning">Start Learning</button>
+                        </div>
+                    </div>
+                </article>
+
+
+
+
+
+            
+             <article class="course-card">
+                <img src="./images/python2.jpg" alt="Python Course">
+                <div class="course-info">
+                    <h3>The Complete Python Bootcamp: From Zero to Master</h3>
+                    <p class="instructor">Lucie G.</p>
+                    <div class="course-stats">
+                        <span>4,6 Hours</span>
+                        <span>•</span>
+                        <span>14,234 Learners</span>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">★★★★★</div>
+                        <span>4.6 (1,823)</span>
+                    </div>
+                    <div class="price-action">
+                        <p class="price">$59.99</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="more-info">More Info</button>
+                        <button class="start-learning">Start Learning</button>
+                    </div>
+                </div>
+             </article>
+
+
+
+
+
+        
+             <article class="course-card">
+                <img src="./images/python3.jpg" alt="Python Course">
+                <div class="course-info">
+                    <h3>The Complete Python Bootcamp: From Zero to Master</h3>
+                    <p class="instructor">David M.</p>
+                    <div class="course-stats">
+                        <span>23.5 Hours</span>
+                        <span>•</span>
+                        <span>124,234 Learners</span>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">★★★★★</div>
+                        <span>4.6 (6,823)</span>
+                    </div>
+                    <div class="price-action">
+                        <p class="price">$71.99</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="more-info">More Info</button>
+                        <button class="start-learning">Start Learning</button>
+                    </div>
+                </div>
+             </article>
+             <article class="course-card">
+                <img src="./images/python1.jpg" alt="Python Course">
+                <div class="course-info">
+                    <h3>The Complete Python Bootcamp: From Zero to Master</h3>
+                    <p class="instructor">John C.</p>
+                    <div class="course-stats">
+                        <span>15.3 Hours</span>
+                        <span>•</span>
+                        <span>11,256 Learners</span>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">★★★★★</div>
+                        <span>4.6 (1,123)</span>
+                    </div>
+                    <div class="price-action">
+                        <p class="price">$39.99</p>
+                    </div>
+                    <div class="course-buttons">
+                        <button class="more-info">More Info</button>
+                        <button class="start-learning">Start Learning</button>
+                    </div>
+                </div>
+            </article>
+            <article class="course-card">
+                <img src="./images/python1.jpg" alt="Python Course">
+                <div class="course-info">
+                    <h3>The Complete Python Bootcamp: From Zero to Master</h3>
+                    <p class="instructor">Erick G.</p>
+                    <div class="course-stats">
+                        <span>12 Hours</span>
+                        <span>•</span>
+                        <span>1,234 Learners</span>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">★★★★★</div>
+                        <span>4.6 (4,823)</span>
+                    </div>
+                    <div class="price-action">
+                        <p class="price">$29.99</p>
+                    </div>
+                    <div class="course-buttons">
+                        <button class="more-info">More Info</button>
+                        <button class="start-learning">Start Learning</button>
+                    </div>
+                </div>
+            </article>
+            <article class="course-card">
+                <img src="./images/python1.jpg" alt="Python Course">
+                <div class="course-info">
+                    <h3>The Complete Python Bootcamp: From Zero to Master</h3>
+                    <p class="instructor">Lucie G.</p>
+                    <div class="course-stats">
+                        <span>12 Hours</span>
+                        <span>•</span>
+                        <span>1,234 Learners</span>
+                    </div>
+                    <div class="rating">
+                        <div class="stars">★★★★★</div>
+                        <span>4.6 (4,823)</span>
+                    </div>
+                    <div class="price-action">
+                        <p class="price">$29.99</p>
+                    </div>
+                    <div class="course-buttons">
+                        <button class="more-info">More Info</button>
+                        <button class="start-learning">Start Learning</button>
+                    </div>
+                </div>
+            </article>
+
+
+            </div>
+            <button class="scroll-button right-button courses-button rightb" aria-label="Scroll rigth">→</button>
+            </div>
+
+        </section>
+
+
+
+
+        <section class="why-choose-us" id="why-choose-us">
+                <div class="what-makes-us-difrrent">
+                    <h2>What makes us difrrent ?</h2>
+                
+                    <div class="what-makes-us-difrrent-inner" >
+                        <div>
+                            <img src="./images/Expert-led-courses.jpg" alt="">
+                        </div>
+                        <div class="what-makes-us-difrrent-text">
+                            <div>
+                               <h2>Expert-led courses</h2>
+                               <h3>Learn from the best to become the best</h3>
+                            </div>
+                            <p>Curated content updated monthly to reflect industry trends <br>
+                                Live Q&A sessions and personalized feedback.
+                            </p>
+                        </div>
+           
+                    </div>
+
+                    <div class="what-makes-us-difrrent-inner" >
+                        <div class="what-makes-us-difrrent-text">
+                            <div>
+                               
+                            <h2>Learn-at-your-pace</h2>
+                            <h3>Your schedule, your rules.</h3>
+                            </div>
+
+                           <p>Lifetime access to all course materials
+                            Pause, rewind, or replay videos anytime.
+                            </p>
+                        </div>
+                        <div>
+                            <img src="./images/Learn-at-your-pace.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="what-makes-us-difrrent-inner" >
+                        <div>
+                            <img src="./images/Job-Ready Certificates.jpg" alt="">
+                        </div>
+                        <div class="what-makes-us-difrrent-text">
+                            <div>
+                            <h2>Job-Ready Certificates</h2>
+                            <h3>Stand out to employers</h3>
+                            </div>
+                           <p>Certificates endorsed by 1,000+ hiring partners <br>
+                            Career coaching and resume reviews included
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="what-makes-us-difrrent-inner" >
+                        <div class="what-makes-us-difrrent-text">
+                            <div>
+                            <h2>Money-Back Guarantee</h2>
+                            <h3>Zero risk, all reward</h3>
+                            </div>
+                            <p>Full refund within 30 days—no questions asked<br>
+                                Free trial for all paid courses.
+                                24/7 technical support via chat or email
+                            </p>
+                        </div>
+                        <div>
+                            <img src="./images/Money-Back Guarantee.jpg" alt="">
+                        </div>
+                    </div>
+           
+                    
+                    
+                </div>
+                <div class="stats">
+                    <div class="stats-inner">
+                    
+                       <h1>+100m</h1>
+                       <p>Learners</p>
+                    </div>
+                    <div class="stats-inner">
+                        <h1>+10m</h1>
+                        <p>Graduated Learners</p>
+                     </div>
+                     <div class="stats-inner">
+                        <h1>+500000</h1>
+                        <p>Courses</p>
+                     </div>
+                     <div class="stats-inner">
+                        <h1>+30000</h1>
+                        <p>Certificated Courses</p>
+                     </div>
+                </div>
+                <section class="comments-section">
+                    <h2>What people are saying about us?</h2>
+                    
+                    <div class="comments">
+                        <div class="comment">
+                            <div class="comments-icon">
+                                <img src="./images/quote.svg" alt="">
+                            </div>
+                            <div class="comment-inner">
+                                <div class="author-info">
+                                    <div class="avatar">
+                                        <img src="./images/avatar1.jpg" alt="">
+                                    </div>
+                                    <div class="author-details">
+                                        <div class="author-name">Random Guy</div>
+                                        <div class="author-job">AI Planet Engineer</div>
+                                    </div>
+                                </div>
+                                <div class="comment-text">
+                                    <p class="quote">"is academy was truly a game-changer and a great guide for me as we brought Dimensional to life"</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <div class="comment">
+                            <div class="comments-icon">
+                                <img src="./images/quote.svg" alt="">
+                            </div>
+                            <div class="comment-inner">
+                                <div class="author-info">
+                                    <div class="avatar">
+                                        <img src="./images/avatar1.jpg" alt="">
+                                    </div>
+                                    <div class="author-details">
+                                        <div class="author-name">Random Guy</div>
+                                        <div class="author-job">AI Planet Engineer</div>
+                                    </div>
+                                </div>
+                                <div class="comment-text">
+                                   <p class="quote">"is academy was truly a game-changer and a great guide for me as we brought Dimensional to life"</p>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comments-icon">
+                                <img src="./images/quote.svg" alt="">
+                            </div>
+                            <div class="comment-inner">
+                                <div class="author-info">
+                                    <div class="avatar">
+                                        <img src="./images/avatar1.jpg" alt="">
+                                    </div>
+                                    <div class="author-details">
+                                        <div class="author-name">Random Guy</div>
+                                        <div class="author-job">AI Planet Engineer</div>
+                                    </div>
+                                </div>
+                                <div class="comment-text">
+                                   <p class="quote">"is academy was truly a game-changer and a great guide for me as we brought Dimensional to life"</p>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="comment">
+                            <div class="comments-icon">
+                                <img src="./images/quote.svg" alt="">
+                            </div>
+                            <div class="comment-inner">
+                                <div class="author-info">
+                                    <div class="avatar">
+                                        <img src="./images/avatar1.jpg" alt="">
+                                    </div>
+                                    <div class="author-details">
+                                        <div class="author-name">Random Guy</div>
+                                        <div class="author-job">AI Planet Engineer</div>
+                                    </div>
+                                </div>
+                                <div class="comment-text">
+                                   <p class="quote">"is academy was truly a game-changer and a great guide for me as we brought Dimensional to life"</p>
+                                </div>
+                           </div>
+                        </div>
+                    
+                </section>
+        </section>
+
+            
+
+
+
+
+
+
+
+
+            </section>
+            <footer>
+                <h2>Explore more</h2>
+             <div class="footer-inner">
+                <div class="all-categories">
+                    <div class="footer-category">
+                        <h3>IT & Software</h3>
+                        <ul>
+                            <li><a href="">Artificial Intelligence</a></li>
+                            <li><a href="">Python</a></li>
+                            <li><a href="">Data Science</a></li>
+                            <li><a href="">Web Development</a></li>
+                            <li><a href="">Linux</a></li>
+                            <li><a href="">Cyber Security</a></li>
+                            <li><a href="">Hardware</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-category">
+                        <h3>business</h3>
+                        <ul>
+                            <li><a href="">Marketing</a></li>
+                            <li><a href="">Leadership</a></li>
+                            <li><a href="">Management</a></li>
+                            <li><a href="">Entrepreneurship</a></li>
+                            <li><a href="">Cryptocurrency</a></li>
+                            <li><a href="">Business Analysis</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-category">
+                        <h3>Art & Design</h3>
+                        <ul>
+                            <li><a href="">Graphic Design</a></li>
+                            <li><a href="">Photography</a></li>
+                            <li><a href="">Video Editing</a></li>
+                            <li><a href="">3D Animation</a></li>
+                            <li><a href="">UI/UX Design</a></li>
+                            <li><a href="">Music</a></li>   
+                        </ul>     
+
+                    </div>    
+                    <div class="footer-category">
+                        <h3>Health & Fitness</h3>
+                        <ul>
+                            <li><a href="">Nutrition</a></li>
+                            <li><a href="">Yoga</a></li>
+                            <li><a href="">Mental Health</a></li>
+                            <li><a href="">Fitness</a></li>
+                            <li><a href="">Wellness</a></li>
+                            <li><a href="">Meditation</a></li>   
+                        </ul>
+
+                    </div>
+                    <div class="footer-category">
+                        <h3>Self Development</h3>
+                        <ul>
+                            <li><a href="">Personal Finance</a></li>
+                            <li><a href="">Time Management</a></li>
+                            <li><a href="">Public Speaking</a></li>
+                            <li><a href="">Productivity</a></li>
+                            <li><a href="">Relationships</a></li>
+                            <li><a href="">Career Development</a></li>
+                        </ul>
+
+                    </div>
+                
+                    
+                </div>
+                <div class="wsaa">
+                    <div class="footer-category">
+                        <h3>What we offer</h3>
+                        <ul>
+                            <li><a href="">Our Certificates</a></li>
+                            <li><a href="">Our career planner</a></li>
+                            <li><a href="">Build your CV</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-category">
+                        <h3>About us</h3>
+                        <ul>
+                            <li><a href="">Our story</a></li>
+                            <li><a href="">Our team</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="footer-category">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Troubleshouting</a></li>
+                            <li><a href="">Community Support</a></li>
+                            <li><a href="">Feedback form</a></li>
+                        </ul>
+                    
+                        
+                    </div>
+                    <div class="footer-category">
+                        <h3>Accessibility</h3>
+                        <ul>
+                            <li><a href="">Accessibility statement</a></li>
+                            <li><a href="">Privacy policy</a></li>
+                            <li><a href="">Terms of service</a></li>
+                            <li><a href="">Cookie policy</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+                <div class="footer-logo-sub">
+
+                    <div class="subscribe">
+                        <h3>Subscribe to get updated</h3>
+                        <form>
+                            <input type="email" placeholder="  Enter your email">
+                                <button>Subscribe</button>
+                        </form>
+
+                    </div>
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <img src="./images/shaka.png" alt="Shaka">
+                        
+                        </div>
+                        <h3>Where Edecation never stop advancing</h3>
+                        <div class="social-media">
+                            <a href=""><img src="./images/facebook.svg" alt=""></a>
+                            <a href=""><img src="./images/twitter.jpg" alt=""></a>
+                            <a href=""><img src="./images/instagram.svg" alt=""></a>
+                            <a href=""><img src="./images/linkedin.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                </div>
+
+                <p class="copyright">© 2025 Shaka, Inc.</p>
+
+
+            </footer>
+
+
+
+
+
+         </section>
+
+
+
+
+
+
+    </main>
+
+<script src="onco.js"></script>    
+</body>
+</html>
