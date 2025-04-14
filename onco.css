@@ -219,7 +219,7 @@ nav .search-button {
 }
 .out-profile{
   max-width: 250px;
-  margin-left: 5rem;
+  margin: 0 auto;
 }
 .sign-up button {
   background-color:  rgb(37 99 235);
@@ -561,12 +561,12 @@ justify-content: space-evenly;
 }
 .right-button {
   right: 0;
-  top: 36px;
+  top: 46px;
   transform: translateY(-50%);
 }
 .left-button {
   left: 0;
-  top: 36px;
+  top: 46px;
   transform: translateY(-50%);
 }
 .scroll-button:hover {
@@ -1070,6 +1070,7 @@ main .hero {
   main .options-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   main .discover-careers-inner {
   width: 300px;
@@ -1196,7 +1197,7 @@ main .comments-section h2 {
     z-index: 1000;
     transition: opacity 0.4s ease ;
   }
- .nav-links , .search-form{
+ .nav-links {
     display: none;
   }
   nav{
@@ -1215,6 +1216,7 @@ main .comments-section h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
     main .option-card img {
       width: 140px;
