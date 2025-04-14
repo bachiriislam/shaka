@@ -1102,8 +1102,16 @@ main .hero {
     width: 18px;
     padding: 0;
   }
+
+
+     main .main-categories {
+    scrollbar-width: none;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+  }
   main .sub-categories{
-    padding: 0 1.5rem;
+    padding-left: 1rem;
+    padding-right:1rem;
   }
  main .sub-category-list li {
   min-width:40px;
@@ -1226,6 +1234,12 @@ main .comments-section h2 {
       width: 22px;
       padding: 0;
     }
+
+     main .main-categories {
+    scrollbar-width: none;
+    margin-left: 3rem;
+    margin-right: 3rem; 
+  }
 
   .what-makes-us-difrrent{
     gap: 3rem;
